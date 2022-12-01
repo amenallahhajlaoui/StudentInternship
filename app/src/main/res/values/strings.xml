@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Student Internship</string>
+    
+    <string name="bottom_home_item"> Accueil</string>
+    <string name="bottom_collection_item">Collection</string>
+    <string name="bottom_add_stage_item">Ajouter</string>
+
+    <!-- page d'acceuil -->
+    <string name="home_page_title">A découvrir</string>
+    <string name="home_page_last_stage_section">Dernières Sujets</string>
+
+    <!-- Page de Collection -->
+    <string name="collection_page_title">Ma Collection</string>
+
+    <!-- Page d'Ajout de stages -->
+    <string name="add_stage_page_title">Ajout d\'une stage</string>
+    <string name="add_stage_page_upload_button">Charger Image</string>
+    <string name="add_stage_page_name_input">@string/item_stage_name</string>
+    <string name="add_stage_page_description_input">@string/item_stage_description</string>
+    
+    <string-array name="add_stage_page_duration_spinner_input">
+        <item>Durée : 6 mois</item>
+        <item>Durée : 4 mois</item>
+        <item>Durée : 3 mois</item>
+    </string-array>
+
+    <string-array name="add_stage_page_nbstagiaires_spinner_input">
+        <item>1 stagiaire</item>
+        <item>2 stagiaires</item>
+    </string-array>
+
+    <string name="add_stage_page_confirm_button">Confirmer</string>
+
+    <!-- Fenetre Popop de details -->
+    <string name="popop_stage_name">Stage Name</string>
+    <string name="popop_stage_description_title">Description</string>
+    <string name="popop_stage_description_subtitle">Petite Description</string>
+    <string name="popop_stage_duration_title">Durée</string>
+    <string name="popop_stage_duration_subtitle">6 mois</string>
+    <string name="popop_stage_nbstagiaires_title">Nombre de Stagiaires</string>
+    <string name="popop_stage_nbstagiaires_subtitle">1 stagiaire</string>
+    <!-- Stage customise -->
+    <string name="item_stage_name">Nom du stage</string>
+    <string name="item_stage_description">description du stage</string>
+
+
+</resources>

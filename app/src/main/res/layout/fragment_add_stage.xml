@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/default_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/upload_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_stage_page_upload_button"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:padding="@dimen/default_margin"
+            style="@style/titleTextStyle"/>
+        <ImageView
+            android:id="@+id/preview_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/neoxam"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/add_stage_page_name_input"
+        android:paddingLeft="@dimen/default_margin"
+        style="@style/DefaultTextStyle"/>
+
+    <EditText
+        android:id="@+id/description_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/add_stage_page_description_input"
+        android:paddingLeft="@dimen/default_margin"
+        style="@style/DefaultTextStyle"/>
+
+    <Spinner
+        android:id="@+id/duration_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:entries="@array/add_stage_page_duration_spinner_input"
+        android:paddingLeft="@dimen/default_margin"/>
+
+    <Spinner
+        android:id="@+id/nbstagiaires_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:entries="@array/add_stage_page_nbstagiaires_spinner_input"
+        android:paddingLeft="@dimen/default_margin"/>
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/add_stage_page_confirm_button"
+        android:layout_marginTop="@dimen/default_margin"
+        android:background="@color/darkGray"
+        android:textSize="24dp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
